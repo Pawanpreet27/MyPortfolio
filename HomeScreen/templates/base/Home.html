@@ -1,0 +1,179 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pawanpreet</title>
+  <link  href= "{% static '/css/main.css' %}" rel="stylesheet" type = "text/css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">	
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <br>
+  <div class="container-fluid">
+    <!--header-->
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col" >
+        <h3  class="logo">Pawanpreet</h3>
+      </div>
+      <div class="col-md-auto" style="align-content: center; text-align: center;">
+        <li  class="menu">Home</li>
+        <li  class="menu">About</li>
+        <li  class="menu">Services</li>
+        <li  class="menu">Portfolio</li>
+        <li  class="menu">Contact</li>
+      </div>
+      <div class="col-1"></div>
+    </div>
+    <br>
+    
+    <!-- Section 1-->
+    <div class="row">
+      <div class="col-1"></div>
+    <div class="col" style="display: flex;" >
+      <div class ="topLeftSection">
+        <h5>Hello, My name is</h5>
+        <h1 style="font-weight: bold;">Pawanpreet</h1>
+        <h5><b style="color:rgb(199, 92, 56)">- </b>A passionate Full Stack Developer</h5>
+      </div>
+    </div>
+
+    <div class="col" style="display: flex;">
+      <img id="profile-pic" src="{% static 'images/profile.jpg' %}" >
+    </div>
+    <div class="col-1"></div>
+   </div>
+    <br>
+    
+  <!--section 2 about me-->
+    <div class="row" id= "aboutMeDiv">
+      <div class="col-1"></div>
+        <div class="col">
+          <div class ="topLeftSection">
+           <h1 style="font-weight: bold;">About me</h1>
+           <h5>I am a Full Stack Developer & Designer who has a knack for creatively solving problems. I have more than 5+ years of experience in native Mobile Application development. I have experience working with large and small companies to create, fix and maintain apps for them.</h5>
+           <button class="button button3">Download CV</button>
+         </div>
+       </div>
+         <div class="col content">
+          <div id="myProgress">
+          <div id="myBar" style="width: 80%;">JAVA 80%</div>
+          </div>
+
+          <div id="myProgress">
+          <div id="myBar" style="width: 70%;">PYTHON 70%</div>
+          </div>
+
+          <div id="myProgress">
+           <div id="myBar" style="width: 90%;">NATIVE ANDROID 90%</div>
+          </div>
+
+          <div id="myProgress">
+            <div id="myBar" style="width: 60%;">FLUTTER 60%</div>
+          </div>
+
+          <div id="myProgress">
+            <div id="myBar" style="width: 80%;">ADOBE XD 80%</div>
+          </div>
+         </div>
+       <div class="col-1"></div>
+    </div>
+   <br>
+  
+
+   <!--section 3 service me-->
+   <div class="row" >
+    <div class="col-1"></div>
+    <div class="col">
+      <div class ="topLeftSection" >
+        <h1 style="font-weight: bold;">Services</h1>
+        <!--//services 1-->
+        <div class="row" id="row-flex">
+          <div class="col" style="background-color: #3B3D40;padding: 30px;display: flex;">
+           <img id="service-pic" src="{% static 'images/profile.jpg' %}" >
+          </div>
+          <div class="col" style="background-color: #3B3D40;padding: 30px;">
+            <h3 style="font-weight: bold;">Mobile Apps</h3>
+            <hr style="background-color: rgb(199, 92, 56);"></hr>
+           <h5>I am a Full Stack Developer & Designer who has a knack for creatively solving problems. I have more than 5+ years of experience in native Mobile Application development. I have experience working with large and small companies to create, fix and maintain apps for them.I am a Full Stack Developer & Designer who has a knack for creatively solving problems. for them.</h5>
+          </div>
+        </div>
+
+         <!--//services 2-->
+        <div class="row" id="row-flex">
+          <div class="col" style="background-color: #3B3D40;padding: 30px;">
+            <h3 style="font-weight: bold;">Web Apps</h3>
+            <hr style="background-color: rgb(199, 92, 56);"></hr>
+           <h5>I am a Full Stack Developer & Designer who has a knack for creatively solving problems. I have more than 5+ years of experience in native Mobile Application development. I have experience working with large and small companies to create, fix and maintain apps for them.I am a Full Stack Developer & Designer who has a knack for creatively solving problems. for them.</h5>
+          </div>
+          <div class="col" style="background-color: #3B3D40;padding: 30px;display: flex;">
+            <img id="service-pic" src="{% static 'images/profile.jpg' %}" >
+           </div>
+        </div>
+
+         <!--//services 3-->
+         <div class="row" id="row-flex"> 
+
+          <div class="col" style="background-color: #3B3D40;padding: 30px;display: flex;">
+            <img id="service-pic" src="{% static 'images/profile.jpg' %}" >
+           </div>
+
+          <div class="col" style="background-color: #3B3D40;padding: 30px;">
+            <h3 style="font-weight: bold;">UX Designing</h3>
+            <hr style="background-color: rgb(199, 92, 56);"></hr>
+           <h5>I am a Full Stack Developer & Designer who has a knack for creatively solving problems. I have more than 5+ years of experience in native Mobile Application development. I have experience working with large and small companies to create, fix and maintain apps for them.I am a Full Stack Developer & Designer who has a knack for creatively solving problems. for them.</h5>
+          </div>
+          
+        </div>
+
+      </div>
+    </div>
+    <div class="col-1"></div>
+    </div>
+   <br>
+   
+
+    <!--section 4 contact me-->
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col" >
+        <h1 style="font-weight: bold;">Contact Me</h1>
+        <div class ="row" id="row-flex">
+         <div class="col">             
+                <label id="labelStyle" for="name">Name</label>
+
+                <input type="text" id="name" name="name" placeholder="Your name..">
+
+                <label  id="labelStyle" for="email">Email-ID</label>
+                <input type="text" id="email" name="email" placeholder="Your Email-ID..">
+
+                <label  id="labelStyle" for="mobileNo">Mobile No.</label>
+                <input type="text" id="mobileNo" name="mobileNo" placeholder="Your Mobile Number..">
+
+                <label  id="labelStyle" for="message">Message</label>
+                <textarea id="subject" name="message" placeholder="Your Message.." style="height:200px"></textarea>
+            
+                <button class="button-submit button3-submit"> Submit </button>
+          </div>
+          <div class="col content" style="text-align: center;">
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-1"></div>
+    </div>
+
+
+    <!-- bottom -->
+    <div class="row" id= "bottomStyle">
+      <label> Copyright @thepassionatecoder</label>
+    </div>
+  </div>
+</body>
+
+</html>
